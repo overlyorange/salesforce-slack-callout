@@ -13,6 +13,7 @@ To make this work, both Salesforce and Slack need to be configured.
 [SlackCallout](/force-app/main/default/classes/SlackCallout.cls)
 - Specify Input variables to be called from within your Flow
 - Add these variables to the JSON body of your HttpRequest
+- Add the Slack webhook URL
 
 [Slack Workflow](https://slack.com/help/articles/360035692513-Guide-to-Workflow-Builder)
 - Create a new workflow that is triggered via [webhook](https://slack.com/help/articles/360041352714-Create-more-advanced-workflows-using-webhooks).
