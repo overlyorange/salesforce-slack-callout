@@ -24,7 +24,7 @@ public with sharing class SlackCallout {
       jsGen.writeEndObject();
   
       req.setEndpoint(
-        'https://hooks.slack.com/workflows/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'
+        '{{ENTER_SLACK_WEBHOOK_HERE}}'
       );
       req.setMethod('POST');
       req.setBody(jsGen.getAsString());
