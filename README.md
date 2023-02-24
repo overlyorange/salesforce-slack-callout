@@ -21,4 +21,4 @@ To make this work, both Salesforce and Slack need to be configured.
 - Use these variables to add steps to your workflow, e.g. by posting a message to a #channel
 
 ## Caveats
-Slack Workflows do not currently allow us to parse variables as hyperlinks. This means that if you wanted your #channel message to include a link to a Salesforce record, it will need to be the full link, e.g. "htt<span>ps://domain.sandbox.lightning.</span>force.com/lightning/r/Contact/contactId/view" instead of [Contact Record]();
+Slack Workflows do not currently allow us to parse variables as hyperlinks. This means that if you wanted your #channel message to include a link to a Salesforce record, it will need to be the full link, e.g. "htt<span>ps://domain.sandbox.lightning.</span>force.com/lightning/r/Contact/contactId/view" instead of [Contact Record]().
